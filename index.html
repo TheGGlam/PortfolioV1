@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<title>E.G.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+
+/* Main title = name */
+@font-face {
+    font-family: 'chicoryregular';
+    src: url('chicory/chicory_-webfont.woff2') format('woff2'),
+         url('chicory/chicory_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+
+}
+#main_title {font-family: "chicoryregular";}
+
+/* Sub title = role */
+
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="eg_li.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-yellow">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>BIO</p>
+  </a>
+  <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>COMPÉTENCES</p>
+  </a>
+  <a href="#languages" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>LANGUES</p>
+  </a>
+  <a href="#hobbies" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>HOBBIES</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>ME CONTACTER</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">BIO</a>
+    <a href="#skills" class="w3-bar-item w3-button" style="width:25% !important">COMPÉTENCES</a>
+    <a href="#languages" class="w3-bar-item w3-button" style="width:25% !important">LANGUES</a>
+    <a href="#hobbies" class="w3-bar-item w3-button" style="width:25% !important">HOBBIES</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">ME CONTACTER</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo w3-yellow" id="main_title">Emilie Garara</h1>
+    <h2 id="sub_title">Développeuse FullStack</h2>
+    <img src="eg_snap.jpg" alt="me" class="w3-image w3-circle" width="500" height="400">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Qui suis-je ?</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <br><br>
+    <p>Multidisciplinaire, j'ai toujours été passionnée par le monde numérique. Bien que j'eus quelques expériences dans la rédaction
+        d'articles ethnologiques, je suis revenue à mon premier amour que sont le code et l'électronique. Créative et perfectionniste, je proposerais aux intéressés de
+        collaborer sur des projets et de créer des sites e-commerce opérationnels et personnalisés.
+    </p>
+  </div>
+
+  <!--Skills Section-->
+  <div class="w3-content w3-justify" id="skills">
+    <h2 class="w3-text-light-grey">Compétences</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <br><br>
+    
+    <p class="w3-wide">Agil Scrum</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <hr>
+    <p class="w3-wide">HTML</p>
+    <div class="w3-white">
+      <div class="w3-red" style="height:28px;width:100%"></div>
+    </div>
+    <p class="w3-wide">CSS</p>
+    <div class="w3-white">
+      <div class="w3-cyan" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">PHP</p>
+    <div class="w3-white">
+      <div class="w3-indigo" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Bootstrap</p>
+    <div class="w3-white">
+      <div class="w3-purple" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">AngularCli, NodeJS, Express</p>
+    <div class="w3-white">
+      <div class="w3-yellow" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">Wordpress</p>
+    <div class="w3-white">
+      <div class="w3-blue" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">C#</p>
+    <div class="w3-white">
+      <div class="w3-deep-orange" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Linux</p>
+    <div class="w3-white">
+      <div class="w3-green" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">C</p>
+    <div class="w3-white">
+      <div class="w3-blue-gray" style="height:28px;width:75%"></div>
+    </div>
+    <p class="w3-wide">Arduino & Raspberry Pi</p>
+    <div class="w3-white">
+      <div class="w3-pink" style="height:28px;width:65%"></div>
+    </div><br>
+
+    <!--Possibilité de télécharger le CV-->
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"><a src="" alt="Le document n'a pu être téléchargé"></a></i> Télécharger un CV
+    </button>
+  </div>
+    <br>
+    <br>
+    <br>
+    
+
+    <!-- Languages Section -->
+  <div class="w3-content w3-justify" id="languages">
+    <h2 class="w3-text-light-grey">Langues parlées</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <br><br>
+    
+    <p class="w3-wide">Français</p>
+    <div class="w3-white">
+      <div class="w3-teal" style="height:28px;width:100%"></div>
+    </div>
+    <p class="w3-wide">Alémanique</p>
+    <div class="w3-white">
+      <div class="w3-teal" style="height:28px;width:100%"></div>
+    </div>
+    <hr>
+    <p class="w3-wide">Anglais</p>
+    <div class="w3-white">
+      <div class="w3-yellow" style="height:28px;width:75%"></div>
+    </div>
+    <p class="w3-wide">Allemand</p>
+    <div class="w3-white">
+      <div class="w3-yellow" style="height:28px;width:75%"></div>
+    </div>
+    <p class="w3-wide">Espagnol</p>
+    <div class="w3-white">
+      <div class="w3-yellow" style="height:28px;width:75%"></div>
+    </div>
+    <p class="w3-wide">Italien</p>
+    <div class="w3-white">
+      <div class="w3-red" style="height:28px;width:35%"></div>
+    </div>
+    <p class="w3-wide">Russe</p>
+    <div class="w3-white">
+      <div class="w3-red" style="height:28px;width:35%"></div>
+    </div>
+    <p class="w3-wide">Chinois</p>
+    <div class="w3-white">
+      <div class="w3-red" style="height:28px;width:35%"></div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <!-- Hobbies Section -->
+
+  <div class="w3-padding-64 w3-content w3-text-grey" id="hobbies">
+    <h2 class="w3-text-light-grey">Hobbies</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-container w3-indigo w3-cell w3-mobile">
+      <p>Design, architecture, dessin de mode</p>
+      <p></p>
+    </div>
+    <div class="w3-container w3-cyan w3-cell w3-mobile">
+      <p>Electricité, impression 3D</p>
+    </div>
+    <div class="w3-container w3-pink w3-cell w3-mobile">
+      <p>Études des langues anciennes, littératures, arts</p>
+    </div>
+
+
+
+  </div>
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Me Contacter</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Saint-Étienne, FR</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (+33) 06 95 27 81 33</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: emilie.garara@gmail.com</p>
+      <p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> LinkedIn : Emilie Garara</p>
+    </div><br>
+
+  
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-row">
+    <div class="w3-center">
+      <i class="fa fa-facebook-official w3-hover-opacity"><a href="facebook.com"></a></i>
+      <i class="fa fa-instagram w3-hover-opacity"><a href="instagram.com"></a></i>
+      <i class="fa fa-youtube w3-hover-opacity" ><a href="youtube.com"></a></i>
+      <i class="fa fa-linkedin w3-hover-opacity"><a href="https://fr.linkedin.com/in/emilie-garara-a05137178"></a></i>
+    </div>
+    <p class="w3-center">Copyright &copy; 2020-<script>document.write(new Date().getFullYear())</script> Emilie Garara All Rights Reserved</p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+
+</body>
+</html>
